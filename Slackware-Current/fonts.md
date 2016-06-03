@@ -30,9 +30,10 @@ and you should be ready to go.
 
 
 
-###*How to use sudo on Slackware*
-Ok, here is an example of how you run sudo on Slackware. Enter your user's password after this command, NOT the ROOT PASSWORD:
+###*Create mkinitrd for generic kernel*
+As root, run this command:
 
-```$ sudo su -c pkgtool```
-
-
+        # /usr/share/mkinitrd/mkinitrd_command_generator.sh
+      
+Enter the results in the terminal to create your new mkinitrd for your updated kernel, etc.<br>
+Done!
