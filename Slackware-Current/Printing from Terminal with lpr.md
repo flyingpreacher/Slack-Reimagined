@@ -14,6 +14,4 @@ Then type
 
 <pre><code>lpq</pre></code>
 
-
-
 to see if the printer you selected is now the default.
