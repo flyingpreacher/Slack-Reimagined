@@ -11,5 +11,9 @@ Then to pick one as the default lpd printer, type at the terminal
 You can copy and paste the <printer> from the list given by lpstat -p -d
 
 Then type 
-```lpq```
+
+<pre><code>lpq</pre></code>
+
+
+
 to see if the printer you selected is now the default.
