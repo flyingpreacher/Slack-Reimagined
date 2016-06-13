@@ -1,4 +1,4 @@
-# slack-reimagined
+# Slack-Reimagined
 ####My Personal Repository of Slackware Installation and Configuration
 
 With this repository, I intend to save all documents, code examples, and code snippets I used to Install and Configure Slackware Linux. 
