@@ -1,5 +1,14 @@
 Tips and Tricks for Slackware
 
+<b>gparted needs the following and more from sbopkg:</b>
+
+1. atkmm
+2. mm-common
+3. libsigc++
+4. cairomm
+5. pangomm
+6. gtkmm
+
 Firefox scrolling WITHOUT TEARING works in Openbox!
 
 <b>To install pcmanfm with <i>sbopkg</i>, you need:</b>
