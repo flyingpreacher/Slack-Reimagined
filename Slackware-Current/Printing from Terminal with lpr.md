@@ -15,3 +15,9 @@ Then type
 <pre><code>lpq</pre></code>
 
 to see if the printer you selected is now the default.
+
+To print from command line:
+
+```lpr /etc/sbopkg/sbopkg.conf```
+  
+  
