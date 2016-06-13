@@ -30,3 +30,12 @@ removepkg x86_64/deps/*.t?z<br>
 follow with /deps/telepathy/ and /kde directories
 
 <b>To change KDE icon themes, go into ~/.kde4/share/icons/</b>
+
+Use "less" to see what files are installed by a package. <b>You can KEEP YOUR SYSTEM CLEAN this way!</b>
+
+pkgtool stores its packages in /var/log/packages, scripts in /var/log/scripts
+
+<b>Loading modules is done in /etc/rc.d/rc.modules</b>
+
+Add blacklists to /etc/modprobe.d/ with "blacklist.conf" files
+
