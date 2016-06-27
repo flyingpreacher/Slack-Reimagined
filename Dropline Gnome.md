@@ -16,3 +16,26 @@ Download all the packages manually with WGET, and use the following commands ins
     # pkcon install dropline
     DO NOT USE THESE COMMANDS************************
 
+
+####Gnome Terminal 
+If it is not working correctly, and gives you an error about GDBus and that it cannot start, go to /etc/profile.d/lang.sh<br>
+Just look for the line in that file which says:
+
+    # en_US is the Slackware default locale:
+    export LANG=en_US
+
+and change the value to your own language. 
+
+And if I also wanted to make the computer support Unicode text, I would change it to
+
+    # en_US is the Slackware default locale:
+    export LANG=en_US.UTF-8
+    
+<b>Enabling Unicode is what made it work for me. I rebooted, installed gnome-terminal and it worked!!</b><br>
+
+Run stty with "-a" option to make sure you are setup for Unicode properly:
+
+    # stty -a
+
+If you see “-iutf8” among the results, the current virtual console is not configured for UTF-8, otherwise if you see “iutf8” (without minus sign), the vc is properly configured. 
+
