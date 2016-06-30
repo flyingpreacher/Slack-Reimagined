@@ -18,8 +18,12 @@ Download all the packages manually with WGET, and use the following commands ins
 
 
 ####Gnome Terminal 
-If it is not working correctly, and gives you an error about GDBus and that it cannot start, go to /etc/profile.d/lang.sh<br>
-Just look for the line in that file which says:
+If it is not working correctly, and gives you this error:
+
+    Error constructing proxy for org.gnome.Terminal:/org/gnome/Terminal/Factory0: Error calling StartServiceByName for org.gnome.Terminal: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.gnome.Terminal exited with status 8
+
+go to /etc/profile.d/lang.sh<br>
+Look for the line in that file which says:
 
     # en_US is the Slackware default locale:
     export LANG=en_US
