@@ -1,5 +1,7 @@
-Here is the location of the most recent files for Dropline Gnome:<br>
+###Download Dropline Gnome:<br>
 http://www.droplinegnome.org/files/3.20/testing/x86-64/
+
+Until Sourceforge gets updated with the latest files, you have to download from the above location.
 
 ~~Download the latest PackageKit-1.1.1-x86_64-1dl.txz (as of 4-22-16), and run these commands as ROOT:~~
 
@@ -9,16 +11,13 @@ Download all the packages manually with WGET, and use the following commands ins
 
     $ wget -r -np -nH --cut-dirs=3 -R index.html http://droplinegnome.org/files/3.20/testing/x86-64/
     
-    
-    DO NOT USE THESE COMMANDS************************
-    # installpkg PackageKit-1.1.1-x86_64-1dl.txz 
-    # pkcon refresh force
-    # pkcon install dropline
-    DO NOT USE THESE COMMANDS************************
+####DO NOT USE THE FOLLOWING COMMANDS
+installpkg PackageKit-1.1.1-x86_64-1dl.txz<br> 
+pkcon refresh force<br>
+pkcon install dropline<br>
 
 
-####Gnome Terminal 
-If it is not working correctly, and gives you this error:
+###Fix Gnome Terminal Error:
 
     Error constructing proxy for org.gnome.Terminal:/org/gnome/Terminal/Factory0: Error calling StartServiceByName for org.gnome.Terminal: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.gnome.Terminal exited with status 8
 
