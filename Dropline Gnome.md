@@ -23,23 +23,19 @@ If it is not working correctly, and gives you this error:
     Error constructing proxy for org.gnome.Terminal:/org/gnome/Terminal/Factory0: Error calling StartServiceByName for org.gnome.Terminal: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.gnome.Terminal exited with status 8
 
 go to /etc/profile.d/lang.sh<br>
-Look for the line in that file which says:
+UNCOMMENT the line in that file which says:
 
-    # en_US is the Slackware default locale:
-    export LANG=en_US
-
-and change the value to your own language. 
-
-And if I also wanted to make the computer support Unicode text, I would change it to
-
-    # en_US is the Slackware default locale:
     export LANG=en_US.UTF-8
-    
-<b>Enabling Unicode is what made it work for me. I rebooted, installed gnome-terminal and it worked!!</b><br>
 
-Run stty with "-a" option to make sure you are setup for Unicode properly:
+This enables Unicode text and allows gnome-terminal to operate properly.
+
+REBOOT!
+
+<b>Enabling Unicode is what made it work for me.</b><br>
+
+Also, run stty with "-a" option:
 
     # stty -a
 
-If you see “-iutf8” among the results, the current virtual console is not configured for UTF-8, otherwise if you see “iutf8” (without minus sign), the vc is properly configured. 
+If you see “-iutf8” among the results, the current virtual console is not configured for UTF-8, <b>otherwise if you see “iutf8” (without minus sign), the vc is properly configured. </b> 
 
