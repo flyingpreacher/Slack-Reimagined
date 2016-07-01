@@ -38,3 +38,11 @@ Also, run stty with "-a" option:
 
 If you see “-iutf8” among the results, the current virtual console is not configured for UTF-8, <b>otherwise if you see “iutf8” (without minus sign), the vc is properly configured. </b> 
 
+<hr />
+
+###How to Get Shell Extensions working
+
+You must use 'startx' to login to the desktop. <br>
+For some reason, when starting GDM automatically, it stops extensions from working. <br>
+I downloaded and installed No Topleft Hot Corner manually, but it seems that installing from gnome.extensions.org works too.
+
