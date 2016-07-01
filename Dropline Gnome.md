@@ -42,6 +42,7 @@ If you see “-iutf8” among the results, the current virtual console is not co
 
 ###How to Get Shell Extensions working
 
+<b>note: this kills automounting</b><br>
 You must use 'startx' to login to the desktop. <br>
 For some reason, when starting GDM automatically, it stops extensions from working. <br>
 I downloaded and installed No Topleft Hot Corner manually, but it seems that installing from gnome.extensions.org works too.
