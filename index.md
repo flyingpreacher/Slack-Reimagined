@@ -8,3 +8,5 @@ I am going to start with a lot of HOWTOs. Then I plan to write docs (edited of c
 That's it for now. 
 
 Enjoy!
+
+[Slackware-Current](https://flyingpreacher.github.io/Slack-Reimagined/Slackware-Current/)
