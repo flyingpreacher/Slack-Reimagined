@@ -1,9 +1,12 @@
-##How to Install and Configure Openbox in Slackware-Current
+# How to Install and Configure Openbox in Slackware-Current
 ####Install Openbox and Helpful Tools
-	sbopkg -i openbox (obmenu, obconf too)
 
-####Install Cairo-Dock (for Panel?)
-	# sbopkg -i cairo-dock
+
+```sbopkg -i openbox obmenu, obconf```
+
+
+<b>Install Cairo-Dock (for Panel?)</b>
+	```# sbopkg -i cairo-dock```
 
 ####Enable compositing with Compton<br>
 	# sbopkg -i libconfig, compton
